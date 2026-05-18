@@ -9,7 +9,7 @@ const errorHandler = require("./middleware/errorHandler");
 const app = express();
 
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/globaltna";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://balabavansajirupan_db_user:globaltna@cluster0.ymz820v.mongodb.net/?appName=Cluster0";
 const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
 
 // ── Middleware ─────────────────────────────────────────────────────────────────
